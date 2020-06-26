@@ -20,6 +20,16 @@ public class EncryptTest {
         Encrypt word =new Encrypt("word",1,"xpse");
         assertEquals(1,word.getShiftKey());
     }
+    @Test
+    public  void Encrypt_getsEncryptedText_String(){
+        Encrypt word =new Encrypt("word",1,"xpse");
+        assertEquals("xpse",word.getEncryptedText());
+    }
+    @Test
+    public void  Encrypt_EncryptsAWord_String(){
+        Encrypt word =new Encrypt("word",1,"xpse");
+        assertEquals("xpse",word.encryptWord());
+    }
 
 
 
