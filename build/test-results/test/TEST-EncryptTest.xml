@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EncryptTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-26T15:38:27" hostname="tonui-HP-ProBook-450-G5" time="0.002">
+  <properties/>
+  <testcase name="Encrypt_InstantiatesCorrectly_String" classname="EncryptTest" time="0.001"/>
+  <testcase name="Encrypt_getsPlainText_String" classname="EncryptTest" time="0.0"/>
+  <testcase name="Encrypt_getsShiftKey_Integer" classname="EncryptTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
