@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DecryptTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-27T13:48:21" hostname="tonui-HP-ProBook-450-G5" time="0.017">
+<testsuite name="DecryptTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-27T14:00:26" hostname="tonui-HP-ProBook-450-G5" time="0.02">
   <properties/>
-  <testcase name="Decrypts_DecryptsAWord_String" classname="DecryptTest" time="0.017"/>
+  <testcase name="Decrypt_InstantiatesCorrectly_String" classname="DecryptTest" time="0.001"/>
+  <testcase name="Decrypts_DecryptsAWord_String" classname="DecryptTest" time="0.018"/>
+  <testcase name="Decrypt_getsPlainText_String" classname="DecryptTest" time="0.0"/>
+  <testcase name="Decrypt_getsShiftKey_Integer" classname="DecryptTest" time="0.0"/>
+  <testcase name="Encrypt_ShiftKeyIsPositive_Boolean" classname="DecryptTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

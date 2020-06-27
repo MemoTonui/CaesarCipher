@@ -24,7 +24,7 @@ public class Decrypt {
     }
 
 
-    public String decryptWord(String text, int shiftKey) {
+    public static String decryptWord(String text, int shiftKey) {
         String decryptedText = "";
         for (int i = 0; i <= text.length()-1; i++) {
             char ch = text.charAt(i);
