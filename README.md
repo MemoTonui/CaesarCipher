@@ -27,6 +27,18 @@ This is a java application that implements the Caesar Cipher form of encryption 
  ## Bugs and Errors
  None Found
  
+# BDD
+- Input : word
+- Encrypted text: xpse
+- Decrypted text: word
+
+
+- Input:THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+- Encrypted Text : QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+- Decrypted Text : THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 
+
+
+ 
  
  
  

@@ -1,6 +1,6 @@
-models/Encrypt.java
- models.Encrypt
 models/Decrypt.java
  models.Decrypt
 App.java
  CaesarCipher
+models/Encrypt.java
+ models.Encrypt
