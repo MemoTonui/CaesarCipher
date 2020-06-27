@@ -20,6 +20,9 @@ public class Decrypt {
     public int getShiftKey() {
         return this.shiftKey;
     }
+    public boolean ShiftKeyPositive() {
+        return shiftKey>=1;
+    }
 
 
     public String decryptWord() {
