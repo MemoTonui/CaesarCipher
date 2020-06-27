@@ -29,8 +29,7 @@ public class Encrypt {
     public static String encryptWord(String text,int shiftKey) {
 
         String encryptedText = "";
-        int lengthOfText = text.length();
-         for (int i = 0; i <= lengthOfText-1; i++) {
+         for (int i = 0; i <= text.length()-1; i++) {
             char ch = text.charAt(i);
 
              if (Character.isLetter(ch)) {
@@ -38,14 +37,16 @@ public class Encrypt {
                      char aLetter = (char) (ch + shiftKey);
                      if (aLetter > 'z') {
                          encryptedText += (char) (ch - (26 - shiftKey));
-                     } else {
+                     }
+                     else {
                          encryptedText += aLetter;
                      }
                  } else if (Character.isUpperCase(ch)) {
                      char aLetter = (char) (ch + shiftKey);
                      if (aLetter > 'Z') {
                          encryptedText += (char) (ch - (26 - shiftKey));
-                     } else {
+                     }
+                     else {
                          encryptedText += aLetter;
                      }
                  }
