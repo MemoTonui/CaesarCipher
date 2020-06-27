@@ -5,7 +5,6 @@ public class Decrypt {
 
     private String text;
     private int shiftKey;
-    private String decryptedText = "";
 
     public Decrypt(String text, int shiftKey) {
         this.text = text;
@@ -25,7 +24,8 @@ public class Decrypt {
     }
 
 
-    public String decryptWord(String text,int shiftKey) {
+    public String decryptWord(String text, int shiftKey) {
+        String decryptedText = "";
         for (int i = 0; i <= text.length()-1; i++) {
             char ch = text.charAt(i);
             if (Character.isLetter(ch)) {
@@ -47,7 +47,7 @@ public class Decrypt {
             }
 
         }
-        return this.decryptedText;
+        return decryptedText;
     }
 
 
