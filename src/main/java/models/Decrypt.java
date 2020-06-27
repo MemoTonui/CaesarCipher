@@ -25,8 +25,8 @@ public class Decrypt {
     }
 
 
-    public String decryptWord() {
-        for (int i = 0; i <= text.length(); i++) {
+    public String decryptWord(String text,int shiftKey) {
+        for (int i = 0; i <= text.length()-1; i++) {
             char ch = text.charAt(i);
             if (Character.isLetter(ch)) {
                 if (Character.isLowerCase(ch)) {
