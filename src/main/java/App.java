@@ -11,7 +11,7 @@ class CaesarCipher {
         Console myConsole = System.console();
         int choice1 =1;
         int choice2 =2;
-        System.out.println("Choose an action:");
+        System.out.println("Choose an action:(1 or 2)");
         System.out.println("1.Encrypt");
         System.out.println("2.Decrypt");
         int choice =parseInt(myConsole.readLine());
