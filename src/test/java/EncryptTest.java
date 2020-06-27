@@ -22,10 +22,16 @@ public class EncryptTest {
     }
 
     @Test
+    public void Encrypt_ShiftKeyIsPositive_Boolean(){
+        Encrypt word = new Encrypt("word",1);
+        assertEquals(true,word.ShiftKeyPositive());
+    }
+
+    @Test
     public void  Encrypt_EncryptsAWord_String(){
         Encrypt word =new Encrypt("word",1);
         String expectedOutput ="xpse";
-        assertEquals(expectedOutput,word.encryptWord());
+        assertEquals(expectedOutput,word.encryptWord("word",1));
     }
 
 

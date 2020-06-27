@@ -20,25 +20,24 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CaesarCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CaesarCipher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Decrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Decrypt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CaesarCipher.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Encrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Encrypt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/DecryptTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/DecryptTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/EncryptTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/EncryptTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/EncryptTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-EncryptTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-EncryptTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Decrypt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Encrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DecryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DecryptTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EncryptTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.EncryptTest.Encrypt_EncryptsAWord_String">
+  <component name="RunManager" selected="Gradle.EncryptTest.Encrypt_ShiftKeyIsPositive_Boolean">
     <configuration name="CaesarCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CaesarCipher" />
       <module name="CeasarCipher.main" />
@@ -103,21 +102,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CeasarCipher" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncryptTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--tests &quot;EncryptTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
-          <list />
+          <list>
+            <option value=":test" />
+          </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="EncryptTest.Encrypt_EncryptsAWord_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -139,12 +140,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncryptTest.Encrypt_InstantiatesCorrectly_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncryptTest.Encrypt_ShiftKeyIsPositive_Boolean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EncryptTest.Encrypt_InstantiatesCorrectly_String&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EncryptTest.Encrypt_ShiftKeyIsPositive_Boolean&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -179,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EncryptTest.Encrypt_EncryptsAWord_String" />
-        <item itemvalue="Gradle.EncryptTest.Encrypt_getsPlainText_String" />
-        <item itemvalue="Gradle.EncryptTest.Encrypt_InstantiatesCorrectly_String" />
+        <item itemvalue="Gradle.EncryptTest.Encrypt_ShiftKeyIsPositive_Boolean" />
         <item itemvalue="Application.CaesarCipher" />
-        <item itemvalue="Gradle.CeasarCipher" />
+        <item itemvalue="Gradle.EncryptTest.Encrypt_EncryptsAWord_String" />
+        <item itemvalue="Gradle.EncryptTest" />
+        <item itemvalue="Gradle.EncryptTest.Encrypt_getsPlainText_String" />
       </list>
     </recent_temporary>
   </component>
@@ -217,22 +218,38 @@
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
     <state x="469" y="130" width="1024" height="845" key="#Project_Structure/53.27.1867.1053@53.27.1867.1053" timestamp="1593173734274" />
-    <state width="1821" height="278" key="GridCell.Tab.0.bottom" timestamp="1593262859844">
+    <state width="1821" height="344" key="GridCell.Tab.0.bottom" timestamp="1593264747810">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
-    <state width="1821" height="278" key="GridCell.Tab.0.bottom/53.27.1867.1053@53.27.1867.1053" timestamp="1593262859844" />
-    <state width="1821" height="278" key="GridCell.Tab.0.center" timestamp="1593262859840">
+    <state width="1821" height="344" key="GridCell.Tab.0.bottom/53.27.1867.1053@53.27.1867.1053" timestamp="1593264747810" />
+    <state width="1821" height="344" key="GridCell.Tab.0.center" timestamp="1593264747810">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
-    <state width="1821" height="278" key="GridCell.Tab.0.center/53.27.1867.1053@53.27.1867.1053" timestamp="1593262859840" />
-    <state width="1821" height="278" key="GridCell.Tab.0.left" timestamp="1593262859839">
+    <state width="1821" height="344" key="GridCell.Tab.0.center/53.27.1867.1053@53.27.1867.1053" timestamp="1593264747810" />
+    <state width="1821" height="344" key="GridCell.Tab.0.left" timestamp="1593264747810">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
-    <state width="1821" height="278" key="GridCell.Tab.0.left/53.27.1867.1053@53.27.1867.1053" timestamp="1593262859839" />
-    <state width="1821" height="278" key="GridCell.Tab.0.right" timestamp="1593262859842">
+    <state width="1821" height="344" key="GridCell.Tab.0.left/53.27.1867.1053@53.27.1867.1053" timestamp="1593264747810" />
+    <state width="1821" height="344" key="GridCell.Tab.0.right" timestamp="1593264747810">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
-    <state width="1821" height="278" key="GridCell.Tab.0.right/53.27.1867.1053@53.27.1867.1053" timestamp="1593262859842" />
+    <state width="1821" height="344" key="GridCell.Tab.0.right/53.27.1867.1053@53.27.1867.1053" timestamp="1593264747810" />
+    <state width="1821" height="344" key="GridCell.Tab.1.bottom" timestamp="1593264747811">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1821" height="344" key="GridCell.Tab.1.bottom/53.27.1867.1053@53.27.1867.1053" timestamp="1593264747811" />
+    <state width="1821" height="344" key="GridCell.Tab.1.center" timestamp="1593264747811">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1821" height="344" key="GridCell.Tab.1.center/53.27.1867.1053@53.27.1867.1053" timestamp="1593264747811" />
+    <state width="1821" height="344" key="GridCell.Tab.1.left" timestamp="1593264747810">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1821" height="344" key="GridCell.Tab.1.left/53.27.1867.1053@53.27.1867.1053" timestamp="1593264747810" />
+    <state width="1821" height="344" key="GridCell.Tab.1.right" timestamp="1593264747811">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1821" height="344" key="GridCell.Tab.1.right/53.27.1867.1053@53.27.1867.1053" timestamp="1593264747811" />
     <state x="733" y="381" width="497" height="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593174322228">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
@@ -245,5 +262,8 @@
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
     <state x="649" y="257" width="672" height="678" key="search.everywhere.popup/53.27.1867.1053@53.27.1867.1053" timestamp="1593183284363" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CeasarCipher$CaesarCipher.ic" NAME="CaesarCipher Coverage Results" MODIFIED="1593263454625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

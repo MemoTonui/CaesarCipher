@@ -3,7 +3,7 @@ package models;
 public class Encrypt {
     private static String text;
     private static int shiftKey;
-    private static String encryptedText = "";
+
 
 
     public Encrypt(String text, int shiftKey){
@@ -21,7 +21,14 @@ public class Encrypt {
         return  this.shiftKey;
     }
 
-    public static String encryptWord() {
+    public boolean ShiftKeyPositive() {
+        return shiftKey>=1;
+    }
+
+
+    public static String encryptWord(String text,int shiftKey) {
+
+        String encryptedText = "";
         int lengthOfText = text.length();
          for (int i = 0; i <= lengthOfText-1; i++) {
             char ch = text.charAt(i);
@@ -50,5 +57,6 @@ public class Encrypt {
          }
          return encryptedText;
      }
+
 
 }
